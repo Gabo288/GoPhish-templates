@@ -1,70 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Your Microsoft 365 password expires soon</title>
 </head>
+
 <body style="margin:0;padding:0;background:#f4f4f4;">
-<table cellpadding="0" cellspacing="0" role="presentation" style="background:#f4f4f4;" width="100%">
-	<tbody>
-		<tr>
-			<td align="center" style="padding:24px 12px;">
-			<table cellpadding="0" cellspacing="0" role="presentation" style="max-width:600px;width:100%;background:#ffffff;border:1px solid #e3e3e3;font-family:Arial,Helvetica,sans-serif;color:#222222;" width="600">
-				<tbody>
-					<tr>
-						<td style="background:#ffffff;padding:16px 24px;border-bottom:1px solid #eeeeee;">
-						<table cellpadding="0" cellspacing="0" role="presentation">
-							<tbody>
-								<tr>
-									<td style="padding-right:8px;line-height:0;">
-									<table cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;">
+	<table cellpadding="0" cellspacing="0" role="presentation" style="background:#f4f4f4;" width="100%">
+		<tbody>
+			<tr>
+				<td align="center" style="padding:24px 12px;">
+					<table cellpadding="0" cellspacing="0" role="presentation"
+						style="max-width:600px;width:100%;background:#ffffff;border:1px solid #e3e3e3;font-family:Arial,Helvetica,sans-serif;color:#222222;"
+						width="600">
+						<tbody>
+							<tr>
+								<td style="background:#ffffff;padding:16px 24px;border-bottom:1px solid #eeeeee;">
+									<table cellpadding="0" cellspacing="0" role="presentation">
 										<tbody>
 											<tr>
-												<td height="9" style="background:#f25022;font-size:0;line-height:0;" width="9">&nbsp;</td>
-												<td style="font-size:0;line-height:0;" width="2">&nbsp;</td>
-												<td height="9" style="background:#7fba00;font-size:0;line-height:0;" width="9">&nbsp;</td>
-											</tr>
-											<tr>
-												<td colspan="3" height="2" style="font-size:0;line-height:0;">&nbsp;</td>
-											</tr>
-											<tr>
-												<td height="9" style="background:#00a4ef;font-size:0;line-height:0;" width="9">&nbsp;</td>
-												<td style="font-size:0;line-height:0;" width="2">&nbsp;</td>
-												<td height="9" style="background:#ffb900;font-size:0;line-height:0;" width="9">&nbsp;</td>
+												<td style="padding-right:8px;line-height:0;">
+													<table cellpadding="0" cellspacing="0" role="presentation"
+														style="border-collapse:collapse;">
+														<tbody>
+															<tr>
+																<td height="9"
+																	style="background:#f25022;font-size:0;line-height:0;"
+																	width="9">&nbsp;</td>
+																<td style="font-size:0;line-height:0;" width="2">&nbsp;
+																</td>
+																<td height="9"
+																	style="background:#7fba00;font-size:0;line-height:0;"
+																	width="9">&nbsp;</td>
+															</tr>
+															<tr>
+																<td colspan="3" height="2"
+																	style="font-size:0;line-height:0;">&nbsp;</td>
+															</tr>
+															<tr>
+																<td height="9"
+																	style="background:#00a4ef;font-size:0;line-height:0;"
+																	width="9">&nbsp;</td>
+																<td style="font-size:0;line-height:0;" width="2">&nbsp;
+																</td>
+																<td height="9"
+																	style="background:#ffb900;font-size:0;line-height:0;"
+																	width="9">&nbsp;</td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+												<!--td style="font-size:16px;font-weight:bold;color:#5e5e5e;">Microsoft 365</td-->
 											</tr>
 										</tbody>
 									</table>
-									</td>
-									<td style="font-size:16px;font-weight:bold;color:#5e5e5e;">Microsoft 365</td>
-								</tr>
-							</tbody>
-						</table>
-						</td>
-					</tr>
-					<tr>
-						<td style="padding:26px 24px;font-size:15px;line-height:1.55;color:#222222;">
-						<p style="margin:0 0 16px;"><strong>Hola {{.FirstName}}</strong>,</p>
+								</td>
+							</tr>
+							<tr>
+								<td style="padding:26px 24px;font-size:15px;line-height:1.55;color:#222222;">
+									<p style="margin:0 0 16px;"><strong>Hola {{.FirstName}}</strong>,</p>
 
-						<p style="margin:0 0 16px;">Tu contrase&ntilde;a de Microsoft 365 est&aacute; agendada para expirar&nbsp;en 3 d&iacute;as desde la emisi&oacute;n de este correo. Para evitar ser expulsado de tu sesi&oacute;n de&nbsp;Outlook, Teams, y OneDrive, conserva tu contra&ntilde;a o&nbsp;cambiala ahora.</p>
+									<p style="margin:0 0 16px;">Tu contrase&ntilde;a de Microsoft 365 est&aacute;
+										agendada para expirar&nbsp;en 3 d&iacute;as desde la emisi&oacute;n de este
+										correo. Para evitar ser expulsado de tu sesi&oacute;n de&nbsp;Outlook, Teams, y
+										OneDrive, conserva tu contra&ntilde;a o&nbsp;cambiala ahora.</p>
 
-						<p style="margin:0 0 16px;">Si no tomas acci&oacute;n, puedes perder acceso a tu correo hasta reestablecer tu contrase&ntilde;a.</p>
+									<p style="margin:0 0 16px;">Si no tomas acci&oacute;n, puedes perder acceso a tu
+										correo hasta reestablecer tu contrase&ntilde;a.</p>
 
-						<p style="margin:24px 0;"><strong><a href="{{.URL}}" style="background:#0078d4;color:#ffffff;text-decoration:none;padding:11px 22px;border-radius:3px;display:inline-block;font-size:15px;">Conservar mi contrase&ntilde;a</a></strong></p>
+									<p style="margin:24px 0;"><strong><a href="{{.URL}}"
+												style="background:#0078d4;color:#ffffff;text-decoration:none;padding:11px 22px;border-radius:3px;display:inline-block;font-size:15px;">Conservar
+												mi contrase&ntilde;a</a></strong></p>
 
-						<p style="margin:18px 0 0;"><br />
-						<strong>Administraci&oacute;n de IT </strong>(Directorio Activo de Azure)</p>
-						</td>
-					</tr>
-					<tr>
-						<td style="padding:16px 24px;border-top:1px solid #eeeeee;font-size:12px;line-height:1.5;color:#888888;">Este correo electr&oacute;nico fue enviado a <strong>{{.Email}}</strong>. Microsoft respeta su privacidad. Para obtener m&aacute;s informaci&oacute;n, lea nuestra <a href="https://privacy.microsoft.com/privacystatement">Pol&iacute;tica de Privacidad</a>.<br />
-						Microsoft Corporation, One Microsoft Way, Redmond, WA 98052</td>
-					</tr>
-				</tbody>
-			</table>
-			</td>
-		</tr>
-	</tbody>
-</table>
+									<p style="margin:18px 0 0;"><br />
+										<strong>Administraci&oacute;n de IT </strong>(Directorio Activo de Azure)
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td
+									style="padding:16px 24px;border-top:1px solid #eeeeee;font-size:12px;line-height:1.5;color:#888888;">
+									Este correo electr&oacute;nico fue enviado a <strong>{{.Email}}</strong>. Microsoft
+									respeta su privacidad. Para obtener m&aacute;s informaci&oacute;n, lea nuestra <a
+										href="https://privacy.microsoft.com/privacystatement">Pol&iacute;tica de
+										Privacidad</a>.<br />
+									Microsoft Corporation, One Microsoft Way, Redmond, WA 98052</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
 
-<p>{{.Tracker}}</p>
+	<p>{{.Tracker}}</p>
 </body>
+
 </html>

